@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/saturn.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Saturn Searches</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center" style="height: 40vh;">
+            <img id="logo" src="assets/img/logo.png" alt="">
+        </div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="container">
+          <form class="d-flex container-fluid" method="GET" action="views/menu2.html">
+            <input class="form-control" type="text" placeholder="Digite aqui" aria-label="Search" style="border-radius: 15px;">
+            <button id="search" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass fa-xl" style="color: #742fcb;"></i></button>
+          </form>
+        </div>
+      </nav>
+      <div class="container-fluid mt-4" id="atalhos">
+        <div class="d-flex justify-content-center align-items-center">
+            <img id="gmail" src="assets/img/Gmail-logo.png" alt="" class="mr-4" style="width: 7%;">
+            <img id = "yt" src="assets/img/youtube.png" alt="" class="mr-5 hover-zoom" style="width: 4%;">
+            <img id="gsa" src="assets/img/Gsa.png" class="mr-5 hover-zoom" alt="" style="width: 4%;">
+            <img id="github" src="assets/img/github.png" class="mr-5"  alt="" style="width: 4%;">
+            <img id="trello" src="assets/img/trello.png" class = "mr-5" alt="" style="width: 4%;">
+            <img id="spotify" src="assets/img/Spotify.png" alt="" class="mr-5" style="width: 4%;">
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-4">
+            <img id="wt" src="assets/img/whats.png" alt="" class="mr-5" style="width: 4%;">
+            <img id="ig" src="assets/img/Instagram.png" alt="" class="mr-5" style="width: 4%;">
+            <img id="facebok" src="assets/img/facebook.png" alt="" class="mr-5" style="width: 4%;">
+            <img id="stof" src="assets/img/stackof.png" alt="" class="mr-5" style="width: 4%;">
+            <img id="amazon" src="assets/img/am.png" alt="" class="mr-5" style="width: 4%;">
+        </div>
+      </div>
+                <div id="slide_anun" class="carousel slide" data-ride="carousel" style="position: absolute; bottom: 0; width: 45%;  left: 27.5%; background-color: white;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.samsung.com"><img src="assets/img/samsung.jpeg" alt="anuncio 1" class="d-block w-100 slide_anun"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.mercadolivre.com.br/"><img src="assets/img/merliv.jpg" alt="anuncio 2" class="d-block w-100 slide_anun"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.playstation.com"><img src="assets/img/playstation.jpeg" alt="anuncio 3" class="d-block w-100 slide_anun"></a>
+                        </div>
+                    </div>
+                </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>

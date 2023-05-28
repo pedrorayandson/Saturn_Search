@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+footer{
+    position: relative;
+    bottom: 0;
+}
+#search{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    right: 4%;
+    bottom: 25%;
+}
+#clean{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 41%;
+    left: 45.5%;
+}
+#atalhos > div > img{
+    cursor: pointer;
+}
+#logo{
+    cursor: pointer;
+}
+.page-item > a{
+    background-color: #742FCB;
+    border: 1px solid black;
+    color: white;
+}
+.result_button{
+    cursor: pointer;
+}
